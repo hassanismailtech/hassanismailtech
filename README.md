@@ -9,12 +9,16 @@ My approach to development is purely utilitarian. While my frontend expertise is
 
 ## What I'm Building
 
-My work focuses heavily on low-resource environments, decentralized health tracking, and operational efficiency:
+My work focuses heavily on low-resource environments, decentralised health tracking, and operational efficiency:
 
-* **[TrustRx](https://github.com/hassanismailtech/TrustRx):** A decentralized, AI-powered health oracle designed for real-time outbreak detection and risk intelligence. Built to allow health workers to report signals via USSD/SMS without needing internet access.
-* **[DxPay (DiagnosticsPay)](https://github.com/hassanismailtech/dxpay):** Diagnostic billing infrastructure for African hospitals. It unifies the process so doctors can order diagnostics and patients see an aggregated bill to pay once. 
+* **[TrustRx](https://github.com/hassanismailtech/TrustRx):** A decentralised, AI-powered health oracle designed for real-time outbreak detection and risk intelligence. Built to let health workers report signals via USSD/SMS without internet access.
+* **[DxPay (DiagnosticsPay)](https://github.com/hassanismailtech/dxpay):** Diagnostic billing infrastructure for African hospitals. It unifies the process so doctors can order diagnostics and patients see a single aggregated bill to pay. 
+* **[Aegis](https://github.com/hassanismailtech/Aegis):** An OpenAI-compatible PII proxy for agents handling regulated Nigerian data. It scrubs sensitive values before they reach an external Upstream, then reinjects them only in the response returned to the caller. The Wire Tap and live dashboard make the boundary observable.
+* **[BioSecure CLI](https://github.com/hassanismailtech/BioSecure-CLI):** A Nigerian health tech MVP featuring a medical command centre CLI application for healthcare operations management.
 * **[Ambient-Triage-Copilot (ATC)](https://github.com/hassanismailtech/Ambient-Triage-Copilot-ATC-):** An offline-first, multimodal clinical copilot built with Google AI Studio. Designed specifically for Community Health Volunteers (CHVs) in low-resource settings.
-* **[Webibyte](https://github.com/hassanismailtech):** A startup initiative focused on digitizing student businesses and small ventures, moving away from heavy B2C apps to embedded, lightweight platforms.
+* **[Ticketer](https://github.com/hassanismailtech/Ticketer):** A lightweight event discovery, registration, secure QR tickets, and role-aware venue operations for modern events built with Next.js 15 App Router, React 19, TypeScript, Prisma, PostgreSQL on Neon, Auth.js, and Tailwind CSS. The public experience is attendee-first: discover an event, choose a pass, register, and keep the resulting QR ticket in an account. Staff tools are separated behind authenticated roles.
+* **[Webibyte](https://github.com/hassanismailtech):** A startup initiative focused on digitising student businesses and small ventures, moving away from heavy B2C apps to embedded, lightweight platforms.
+* **[Pacts](https://github.com/hassanismailtech/pacts):** An asynchronous digital negotiation workspace. It is a lightweight web platform that allows two informal parties to collaboratively define their terms in plain, conversational English. The system automatically maps these inputs onto legally binding, compliance-checked boilerplate templates (NDAs, SLAs).
 * **[TaxMate NG](https://github.com/hassanismailtech/tax-mate):** A chatbot-first web app translating 2026 Nigerian tax laws into simple English, ELI5, and Pidgin.
 
 *Hackathons & Rapid Deployments:* Recent builds include **LifeLine Verify** (a network-powered emergency verification system for a GSMA/Nokia hackathon) and **The Clinical Lens** (a clinical reasoning assistant deployed at GDG Build with AI).
@@ -35,6 +39,9 @@ When I am not on ward rounds or deploying code:
 * **Business** 
 
 ---
-**Connect with me:** * [LinkedIn](https://linkedin.com/in/hassanismailtech)
+**Connect with me:** 
+* [Blog](https://goodtech.me)
+* [LinkedIn](https://linkedin.com/in/hassanismailtech)
 * [X (Twitter)](https://twitter.com/hassanismailtec)
+* [Instagram](https://instagram.com/hassanismailtech)
 * ORCID: [0009-0007-5782-427X](https://orcid.org/0009-0007-5782-427X)
