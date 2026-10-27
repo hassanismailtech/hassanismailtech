@@ -1,45 +1,78 @@
-# Hassan Ismail 
-**Bridging Clinical Medicine, Software Engineering, & Data**
+# Hassan Ismail
 
-> *"A research-driven future neurosurgeon using software, data, and disciplined growth to build meaningful healthcare solutions."*
+**Physician-technologist. Medical student building healthcare software for low-resource settings.**
 
-I am a 4th-year medical student at the Lagos State University College of Medicine (LASUCOM), currently navigating clinical rotations at LASUTH. I build practical, execution-focused software. I am not interested in tutorial loops or theoretical posturing; I build working systems to solve immediate, real-world problems in healthcare and digital infrastructure. 
+> A research-driven future neurosurgeon using software, data, and disciplined growth to build meaningful healthcare solutions.
 
-My approach to development is purely utilitarian. While my frontend expertise is minimal and I consider myself a beginner constantly learning on the fly, I leverage whatever logic, APIs, and tools are necessary to get a product from zero to deployed.
+I am a 4th-year medical student at the Lagos State University College of Medicine (LASUCOM), currently on clinical rotations at LASUTH. I ship working software for problems I see on the wards and in the health system: unreliable connectivity, fragmented billing, unprotected patient data, and slow outbreak reporting. I am not interested in tutorial loops. I pick the problem, learn what the problem demands, and deploy.
 
-## What I'm Building
-
-My work focuses heavily on low-resource environments, decentralised health tracking, and operational efficiency:
-
-* **[TrustRx](https://github.com/hassanismailtech/TrustRx):** A decentralised, AI-powered health oracle designed for real-time outbreak detection and risk intelligence. Built to let health workers report signals via USSD/SMS without internet access.
-* **[DxPay (DiagnosticsPay)](https://github.com/hassanismailtech/dxpay):** Diagnostic billing infrastructure for African hospitals. It unifies the process so doctors can order diagnostics and patients see a single aggregated bill to pay. 
-* **[Aegis](https://github.com/hassanismailtech/Aegis):** An OpenAI-compatible PII proxy for agents handling regulated Nigerian data. It scrubs sensitive values before they reach an external Upstream, then reinjects them only in the response returned to the caller. The Wire Tap and live dashboard make the boundary observable.
-* **[BioSecure CLI](https://github.com/hassanismailtech/BioSecure-CLI):** A Nigerian health tech MVP featuring a medical command centre CLI application for healthcare operations management.
-* **[Ambient-Triage-Copilot (ATC)](https://github.com/hassanismailtech/Ambient-Triage-Copilot-ATC-):** An offline-first, multimodal clinical copilot built with Google AI Studio. Designed specifically for Community Health Volunteers (CHVs) in low-resource settings.
-* **[Ticketer](https://github.com/hassanismailtech/Ticketer):** A lightweight event discovery, registration, secure QR tickets, and role-aware venue operations for modern events built with Next.js 15 App Router, React 19, TypeScript, Prisma, PostgreSQL on Neon, Auth.js, and Tailwind CSS. The public experience is attendee-first: discover an event, choose a pass, register, and keep the resulting QR ticket in an account. Staff tools are separated behind authenticated roles.
-* **[Webibyte](https://github.com/hassanismailtech):** A startup initiative focused on digitising student businesses and small ventures, moving away from heavy B2C apps to embedded, lightweight platforms.
-* **[Pacts](https://github.com/hassanismailtech/pacts):** An asynchronous digital negotiation workspace. It is a lightweight web platform that allows two informal parties to collaboratively define their terms in plain, conversational English. The system automatically maps these inputs onto legally binding, compliance-checked boilerplate templates (NDAs, SLAs).
-* **[TaxMate NG](https://github.com/hassanismailtech/tax-mate):** A chatbot-first web app translating 2026 Nigerian tax laws into simple English, ELI5, and Pidgin.
-
-*Hackathons & Rapid Deployments:* Recent builds include **LifeLine Verify** (a network-powered emergency verification system for a GSMA/Nokia hackathon) and **The Clinical Lens** (a clinical reasoning assistant deployed at GDG Build with AI).
-
-## Stack & Systems
-
-I build with what works. My primary focus is on backend logic, system architecture, and AI integrations.
-
-* **Languages & Frameworks:** TypeScript, JavaScript, Python, HTML/CSS, Next.js, React.
-* **Data & AI:** Google AI Studio, basic Python data analysis, Excel.
-* **Operations & Workflows:** As Director of IT and Operations at the LASU Research Society, I rely heavily on structured workflows using Notion, Google Calendar, and Google Tasks to keep teams moving and prevent bottlenecks.
-
-## Beyond the Clinic & Code
-
-When I am not on ward rounds or deploying code:
-* **Languages:** I am a polyglot-in-training, actively juggling French, Spanish, Japanese, Arabic, and Chinese. I prefer organic assimilation over rigid study.
-* **Media:** Big fan of anime and manga.
-* **Business** 
+Based in Lagos, Nigeria. Open to collaborations in health tech, clinical informatics, and research.
 
 ---
-**Connect with me:** 
+
+## Selected Work
+
+| Project | What it does | Stack / Notes |
+|---|---|---|
+| [TrustRx](https://github.com/hassanismailtech/TrustRx) | Decentralised, AI-powered health oracle for real-time outbreak detection and risk intelligence. Health workers report signals via USSD/SMS, no internet required. | Hedera, USSD/SMS |
+| [DxPay (DiagnosticsPay)](https://github.com/hassanismailtech/dxpay) | Diagnostic billing infrastructure for African hospitals. Doctors order diagnostics across providers, and the patient sees a single aggregated bill to pay. | Team build, MVP live |
+| [Aegis](https://github.com/hassanismailtech/Aegis) | OpenAI-compatible PII proxy for agents handling regulated Nigerian data. Scrubs sensitive values before they reach an external upstream, then reinjects them only in the response returned to the caller. The Wire Tap and live dashboard make the boundary observable. | Built for the PAU 24-Hour Hackathon |
+| [BioSecure CLI](https://github.com/hassanismailtech/BioSecure-CLI) | Medical command centre CLI for healthcare operations management, with role-based access control and HIPAA/NDPR-aligned compliance. | Built in 32 minutes for the GitHub Copilot Challenge |
+| [Ambient-Triage-Copilot](https://github.com/hassanismailtech/Ambient-Triage-Copilot-ATC-) | Offline-first, multimodal clinical copilot for Community Health Volunteers in low-resource settings. | Google AI Studio |
+| [Ticketer](https://github.com/hassanismailtech/Ticketer) | Event discovery, registration, and secure QR ticketing with role-aware venue operations. Attendee-first public experience; staff tools sit behind authenticated roles. | Next.js 15, React 19, TypeScript, Prisma, PostgreSQL (Neon), Auth.js, Tailwind CSS |
+| [Pacts](https://github.com/hassanismailtech/pacts) | Asynchronous negotiation workspace. Two informal parties define terms in plain conversational English, and the system maps them onto compliance-checked templates (NDAs, SLAs). | Web app |
+| [TaxMate NG](https://github.com/hassanismailtech/tax-mate) | Chatbot-first web app that explains 2026 Nigerian tax law in simple English, ELI5, and Pidgin. | Web app |
+| [Webibyte](https://www.webibyte.com/) | Digital agency I founded, moving student businesses and small ventures from heavy B2C apps to lightweight, embedded platforms. | Agency |
+
+### Hackathons and Rapid Builds
+
+- **LifeLine Verify:** network-powered emergency verification system for a GSMA/Nokia hackathon.
+- **The Clinical Lens:** clinical reasoning assistant deployed at GDG Build with AI.
+- **Aegis:** PAU 24-Hour Hackathon entry (see above).
+
+---
+
+## Focus Areas
+
+- **Health systems in low-resource environments:** offline-first and USSD/SMS-first design, so tools work where connectivity does not.
+- **Decentralised health tracking:** outbreak signals, verifiable records, and trust infrastructure.
+- **Data protection for regulated health data:** PII scrubbing, access control, and NDPR-aligned design.
+- **Operational efficiency:** billing, triage, and workflow tools that remove friction for clinicians and community health workers.
+
+---
+
+## Stack
+
+| Area | Tools |
+|---|---|
+| Languages | TypeScript, JavaScript, Python, HTML/CSS |
+| Frameworks | Next.js, React, Tailwind CSS, Prisma |
+| Data | PostgreSQL (Neon), basic Python data analysis, Excel |
+| AI | Google AI Studio, OpenAI-compatible APIs, agentic tooling |
+| Workflow | Notion, Google Calendar, Google Tasks, structured team workflows |
+
+My primary focus is backend logic, system architecture, and AI integration. I lean on AI-assisted development to move fast and keep the engineering decisions mine.
+
+---
+
+## Leadership and Research
+
+- **President, LASU Research Society (2026/2027):** Leading the executive board, restructuring operations, and running the society's digital and research workflows.
+- **Founder, HIT² Lab:** student-run health tech innovation lab.
+- **Technical Founder, WEBIBYTE**
+- **Research:** contributing to academic reviews and working toward publication. ORCID below.
+
+---
+
+## Beyond the Clinic and Code
+
+- **Languages:** learning French, Spanish, Japanese, Arabic, and Chinese, through organic assimilation rather than rigid study.
+- **Media:** anime and manga.
+
+---
+
+## Connect
+
 * [Blog](https://goodtech.me)
 * [LinkedIn](https://linkedin.com/in/hassanismailtech)
 * [X (Twitter)](https://twitter.com/hassanismailtec)
