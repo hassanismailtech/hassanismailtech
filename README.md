@@ -16,7 +16,7 @@ Based in Lagos, Nigeria. Open to collaborations in health tech, clinical informa
 |---|---|---|
 | [TrustRx](https://github.com/hassanismailtech/TrustRx) | Decentralised, AI-powered health oracle for real-time outbreak detection and risk intelligence. Health workers report signals via USSD/SMS, no internet required. | Hedera, USSD/SMS |
 | [DxPay (DiagnosticsPay)](https://github.com/hassanismailtech/dxpay) | Diagnostic billing infrastructure for African hospitals. Doctors order diagnostics across providers, and the patient sees a single aggregated bill to pay. | Team build, MVP live |
-| [Aegis](https://github.com/hassanismailtech/Aegis) | OpenAI-compatible PII proxy for agents handling regulated Nigerian data. Scrubs sensitive values before they reach an external upstream, then reinjects them only in the response returned to the caller. The Wire Tap and live dashboard make the boundary observable. | Built for the PAU 24-Hour Hackathon |
+| [Seclume](https://github.com/hassanismailtech/Seclume) | Seclume Proxy — is a drop-in, inspectable data boundary for AI agents handling Nigerian identifiers (NIN, BVN, phone numbers, patient IDs). Built as an OpenAI- and Anthropic-compatible proxy, its Scrubber replaces detected sensitive values with session-stable Placeholders before requests hit an external upstream LLM, and its Reinjector restores values only in the response returned to the caller, with Wire Tap and telemetry auditing the post-scrub boundary for NDPA compliance.  | Redis, FastAPI, Open Source |
 | [BioSecure CLI](https://github.com/hassanismailtech/BioSecure-CLI) | Medical command centre CLI for healthcare operations management, with role-based access control and HIPAA/NDPR-aligned compliance. | Built in 32 minutes for the GitHub Copilot Challenge |
 | [Ambient-Triage-Copilot](https://github.com/hassanismailtech/Ambient-Triage-Copilot-ATC-) | Offline-first, multimodal clinical copilot for Community Health Volunteers in low-resource settings. | Google AI Studio |
 | [Ticketer](https://github.com/hassanismailtech/Ticketer) | Event discovery, registration, and secure QR ticketing with role-aware venue operations. Attendee-first public experience; staff tools sit behind authenticated roles. | Next.js 15, React 19, TypeScript, Prisma, PostgreSQL (Neon), Auth.js, Tailwind CSS |
@@ -28,7 +28,6 @@ Based in Lagos, Nigeria. Open to collaborations in health tech, clinical informa
 
 - **LifeLine Verify:** network-powered emergency verification system for a GSMA/Nokia hackathon.
 - **The Clinical Lens:** clinical reasoning assistant deployed at GDG Build with AI.
-- **Aegis:** PAU 24-Hour Hackathon entry (see above).
 
 ---
 
@@ -58,8 +57,9 @@ My primary focus is backend logic, system architecture, and AI integration. I le
 ## Leadership and Research
 
 - **President, LASU Research Society (2026/2027):** Leading the executive board, restructuring operations, and running the society's digital and research workflows.
-- **Founder, HIT² Lab:** student-run health tech innovation lab.
-- **Technical Founder, WEBIBYTE**
+- **Founder, HIT² Lab:** HIT² Lab (HassanIsmailTech Lab) is a student-founded innovation and research hub developing high-impact, technology-driven solutions for healthcare, public health, and community development across Africa.
+Operating at the intersection of clinical medicine, software engineering, and implementation science, with a mission to design and build practical digital tools that solve real African health challenges.
+- **Technical Founder, WEBIBYTE:** Webibyte Digital Systems provides website design, development, redesign, and migration services for businesses, independent professionals, and small organisations. Customers pay for agreed website projects with defined scope and deliverables.
 - **Research:** contributing to academic reviews and working toward publication. ORCID below.
 
 ---
