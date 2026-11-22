@@ -16,7 +16,7 @@ Based in Lagos, Nigeria. Open to collaborations in health tech, clinical informa
 |---|---|---|
 | [TrustRx](https://github.com/hassanismailtech/TrustRx) | Decentralised, AI-powered health oracle for real-time outbreak detection and risk intelligence. Health workers report signals via USSD/SMS, no internet required. | Hedera, USSD/SMS |
 | [DxPay (DiagnosticsPay)](https://github.com/hassanismailtech/dxpay) | Diagnostic billing infrastructure for African hospitals. Doctors order diagnostics across providers, and the patient sees a single aggregated bill to pay. | Team build, MVP live |
-| [Aegis](https://github.com/hassanismailtech/Aegis) | OpenAI-compatible PII proxy for agents handling regulated Nigerian data. Scrubs sensitive values before they reach an external upstream, then reinjects them only in the response returned to the caller. The Wire Tap and live dashboard make the boundary observable. | Built for the PAU 24-Hour Hackathon |
+| [Seclume Proxy](https://github.com/hassanismailtech/seclume) | Open-source Python PII-minimisation Proxy for AI agents handling Nigerian identifiers. OpenAI- and Anthropic-compatible; self-hosted. | Built for the PAU 24-Hour Hackathon |
 | [BioSecure CLI](https://github.com/hassanismailtech/BioSecure-CLI) | Medical command centre CLI for healthcare operations management, with role-based access control and HIPAA/NDPR-aligned compliance. | Built in 32 minutes for the GitHub Copilot Challenge |
 | [Ambient-Triage-Copilot](https://github.com/hassanismailtech/Ambient-Triage-Copilot-ATC-) | Offline-first, multimodal clinical copilot for Community Health Volunteers in low-resource settings. | Google AI Studio |
 | [Ticketer](https://github.com/hassanismailtech/Ticketer) | Event discovery, registration, and secure QR ticketing with role-aware venue operations. Attendee-first public experience; staff tools sit behind authenticated roles. | Next.js 15, React 19, TypeScript, Prisma, PostgreSQL (Neon), Auth.js, Tailwind CSS |
@@ -28,7 +28,7 @@ Based in Lagos, Nigeria. Open to collaborations in health tech, clinical informa
 
 - **LifeLine Verify:** network-powered emergency verification system for a GSMA/Nokia hackathon.
 - **The Clinical Lens:** clinical reasoning assistant deployed at GDG Build with AI.
-- **Aegis:** PAU 24-Hour Hackathon entry (see above).
+- **Seclume Proxy:** PAU 24-Hour Hackathon entry (see above).
 
 ---
 
